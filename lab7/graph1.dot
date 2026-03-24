@@ -1,0 +1,179 @@
+digraph G {
+  rankdir=TB;
+  splines=true;
+  overlap=false;
+  nodesep=0.65;
+  ranksep=0.95;
+  graph [bgcolor="white"];
+  node [shape=circle, style=filled, penwidth=3, fontname="Helvetica", margin="0.25,0.18"];
+  edge [penwidth=3, arrowsize=5, color="black"];
+
+  subgraph foata_1 {
+    rank=same;
+    n0 [fillcolor="palegreen", label=<<FONT POINT-SIZE="100"><B>A</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,1</SUB></FONT>>];
+    n11 [fillcolor="palegreen", label=<<FONT POINT-SIZE="100"><B>A</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,1</SUB></FONT>>];
+    n22 [fillcolor="palegreen", label=<<FONT POINT-SIZE="100"><B>A</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,1</SUB></FONT>>];
+  }
+
+  subgraph foata_2 {
+    rank=same;
+    n1 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,1,1</SUB></FONT>>];
+    n3 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,2,1</SUB></FONT>>];
+    n5 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,3,1</SUB></FONT>>];
+    n7 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,4,1</SUB></FONT>>];
+    n9 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,5,1</SUB></FONT>>];
+    n12 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,1,1</SUB></FONT>>];
+    n14 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,2,1</SUB></FONT>>];
+    n16 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,3,1</SUB></FONT>>];
+    n18 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,4,1</SUB></FONT>>];
+    n20 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,5,1</SUB></FONT>>];
+    n23 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,1,1</SUB></FONT>>];
+    n25 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,2,1</SUB></FONT>>];
+    n27 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,3,1</SUB></FONT>>];
+    n29 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,4,1</SUB></FONT>>];
+    n31 [fillcolor="orange", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,5,1</SUB></FONT>>];
+  }
+
+  subgraph foata_3 {
+    rank=same;
+    n2 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,1,1</SUB></FONT>>];
+    n4 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,2,1</SUB></FONT>>];
+    n6 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,3,1</SUB></FONT>>];
+    n8 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,4,1</SUB></FONT>>];
+    n10 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>2,5,1</SUB></FONT>>];
+    n13 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,1,1</SUB></FONT>>];
+    n15 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,2,1</SUB></FONT>>];
+    n17 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,3,1</SUB></FONT>>];
+    n19 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,4,1</SUB></FONT>>];
+    n21 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,5,1</SUB></FONT>>];
+    n24 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,1,1</SUB></FONT>>];
+    n26 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,2,1</SUB></FONT>>];
+    n28 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,3,1</SUB></FONT>>];
+    n30 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,4,1</SUB></FONT>>];
+    n32 [fillcolor="cyan", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,5,1</SUB></FONT>>];
+  }
+
+  subgraph foata_4 {
+    rank=same;
+    n33 [fillcolor="hotpink", label=<<FONT POINT-SIZE="100"><B>A</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,2</SUB></FONT>>];
+    n42 [fillcolor="hotpink", label=<<FONT POINT-SIZE="100"><B>A</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,2</SUB></FONT>>];
+  }
+
+  subgraph foata_5 {
+    rank=same;
+    n34 [fillcolor="gray80", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,2,2</SUB></FONT>>];
+    n36 [fillcolor="gray80", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,3,2</SUB></FONT>>];
+    n38 [fillcolor="gray80", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,4,2</SUB></FONT>>];
+    n40 [fillcolor="gray80", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,5,2</SUB></FONT>>];
+    n43 [fillcolor="gray80", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,2,2</SUB></FONT>>];
+    n45 [fillcolor="gray80", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,3,2</SUB></FONT>>];
+    n47 [fillcolor="gray80", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,4,2</SUB></FONT>>];
+    n49 [fillcolor="gray80", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,5,2</SUB></FONT>>];
+  }
+
+  subgraph foata_6 {
+    rank=same;
+    n35 [fillcolor="red", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,2,2</SUB></FONT>>];
+    n37 [fillcolor="red", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,3,2</SUB></FONT>>];
+    n39 [fillcolor="red", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,4,2</SUB></FONT>>];
+    n41 [fillcolor="red", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>3,5,2</SUB></FONT>>];
+    n44 [fillcolor="red", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,2,2</SUB></FONT>>];
+    n46 [fillcolor="red", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,3,2</SUB></FONT>>];
+    n48 [fillcolor="red", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,4,2</SUB></FONT>>];
+    n50 [fillcolor="red", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,5,2</SUB></FONT>>];
+  }
+
+  subgraph foata_7 {
+    rank=same;
+    n51 [fillcolor="yellow", label=<<FONT POINT-SIZE="100"><B>A</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,3</SUB></FONT>>];
+  }
+
+  subgraph foata_8 {
+    rank=same;
+    n52 [fillcolor="plum", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,3,3</SUB></FONT>>];
+    n54 [fillcolor="plum", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,4,3</SUB></FONT>>];
+    n56 [fillcolor="plum", label=<<FONT POINT-SIZE="100"><B>B</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,5,3</SUB></FONT>>];
+  }
+
+  subgraph foata_9 {
+    rank=same;
+    n53 [fillcolor="lightskyblue", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,3,3</SUB></FONT>>];
+    n55 [fillcolor="lightskyblue", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,4,3</SUB></FONT>>];
+    n57 [fillcolor="lightskyblue", label=<<FONT POINT-SIZE="100"><B>C</B></FONT><BR/><FONT POINT-SIZE="94"><SUB>4,5,3</SUB></FONT>>];
+  }
+
+  n0 -> n1;
+  n0 -> n3;
+  n0 -> n5;
+  n0 -> n7;
+  n0 -> n9;
+  n1 -> n2;
+  n3 -> n4;
+  n4 -> n33;
+  n4 -> n42;
+  n5 -> n6;
+  n6 -> n36;
+  n6 -> n45;
+  n7 -> n8;
+  n8 -> n38;
+  n8 -> n47;
+  n9 -> n10;
+  n10 -> n40;
+  n10 -> n49;
+  n11 -> n12;
+  n11 -> n14;
+  n11 -> n16;
+  n11 -> n18;
+  n11 -> n20;
+  n12 -> n13;
+  n14 -> n15;
+  n15 -> n33;
+  n16 -> n17;
+  n17 -> n37;
+  n18 -> n19;
+  n19 -> n39;
+  n20 -> n21;
+  n21 -> n41;
+  n22 -> n23;
+  n22 -> n25;
+  n22 -> n27;
+  n22 -> n29;
+  n22 -> n31;
+  n23 -> n24;
+  n25 -> n26;
+  n26 -> n42;
+  n27 -> n28;
+  n28 -> n46;
+  n29 -> n30;
+  n30 -> n48;
+  n31 -> n32;
+  n32 -> n50;
+  n33 -> n34;
+  n33 -> n36;
+  n33 -> n38;
+  n33 -> n40;
+  n34 -> n35;
+  n36 -> n37;
+  n37 -> n51;
+  n38 -> n39;
+  n39 -> n54;
+  n40 -> n41;
+  n41 -> n56;
+  n42 -> n43;
+  n42 -> n45;
+  n42 -> n47;
+  n42 -> n49;
+  n43 -> n44;
+  n45 -> n46;
+  n46 -> n51;
+  n47 -> n48;
+  n48 -> n55;
+  n49 -> n50;
+  n50 -> n57;
+  n51 -> n52;
+  n51 -> n54;
+  n51 -> n56;
+  n52 -> n53;
+  n54 -> n55;
+  n56 -> n57;
+}
